@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a form</title>
+    <link rel="stylesheet" href="../styling/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=PT+Sans&family=Quicksand&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script type="text/javascript">
+$(document).on('click', 'a', function(){
+    $(this).addClass('active').siblings().removeClass('active')})
+    </script>
+    <script src="../script/timer.js"></script>
+    <nav class="menu background">
+        <div class="left-menu background">
+            <div class="logo">
+                <img src="../images/logo.png" alt="This is logo">
+            </div>
+            <div class="nav-items">
+                <ul class=" items">
+                    <li> <a href="#home" class="active">Home</a></li>
+                    <li> <a href="#TestSeries">Test Series</a></li>
+                    <li> <a href="#contest">Contests</a></li>
+                    <li> <a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-menu">
+            <input type="text" name="search" id="search" id="search" placeholder=" Search Here..." class="search">
+            <button class="btn">Search</button>
+        </div>
+
+    </nav>
+    <section class="section1 background2" id="home">
+        <div class="left">
+            <h1 class="test">Test Area</h1>
+            <a href="single.html" class="links">Single Choice</a>
+            <a href="multi.html" class="links">Multiple Choices</a>
+            <a href="subjective.html" class="links">Subjective</a>
+            <a href="apti.html" class="links">General Aptitude</a>
+        </div>
+        <div class="right">
+            <h1>The Test School</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, sequi velit id repudiandae a corporis
+                perferendis, quisquam facilis natus ea, totam itaque? Lorem ipsum dolor sit amet consectetur</p>
+
+            <div class="log">
+                <button class="btn2">Log In</button>
+                <button class="btn2">Sign Up</button>
+            </div>
+        </div>
+    </section>
+    <section class="section2" id="TestSeries">
+        <h1 class="test">Test Series</h1>
+        <section class="sec-right">
+            <div class="paras">
+
+
+                <p class="sectiontag">Single Choice</p>
+                <p class="sectionsubtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis
+                    porro
+                    fugiat, perferendis iusto itaque aliquam dolores non facilis quia, dolorum, odit doloremque.
+                    Perferendis, aut rem beatae nemo id est. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Error
+                    omnis inventore veritatis suscipit blanditiis repudiandae nihil esse, itaque reprehenderit veniam!
+                    Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptas labore optio exercitationem
+                    voluptatum dolor autem vero ducimus suscipit eos accusamus aliquam repellendus tempore deserunt at
+                    reprehenderit commodi nulla iste libero aspernatur sed, deleniti hic omnis porro. Amet eaque natus
+                    unde
+                    a placeat. Molestiae, quo quis officia libero sint beatae. </p>
+            </div>
+            <div class="thumbnail">
+                <img src="../images/single.jpg" alt="Single Choice" class="imgfluid" srcset="">
+            </div>
+
+        </section>
+        <section class="sec-left">
+            <div class="thumbnail">
+                <img src="../images/multi.jpg" alt="Single Choice" class="imgfluid" srcset="">
+            </div>
+
+            <div class="paras">
+
+
+                <p class="sectiontag">Multiple Choices</p>
+                <p class="sectionsubtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis
+                    porro
+                    fugiat, perferendis iusto itaque aliquam dolores non facilis quia, dolorum, odit doloremque.
+                    Perferendis, aut rem beatae nemo id est. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Error
+                    omnis inventore veritatis suscipit blanditiis repudiandae nihil esse, itaque reprehenderit veniam!
+                    Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptas labore optio exercitationem
+                    voluptatum dolor autem vero ducimus suscipit eos accusamus aliquam repellendus tempore deserunt at
+                    reprehenderit commodi nulla iste libero aspernatur sed, deleniti hic omnis porro. Amet eaque natus
+                    unde
+                    a placeat. Molestiae, quo quis officia libero sint beatae. </p>
+            </div>
+
+        </section>
+        <section class="sec-right">
+            <div class="paras">
+
+
+                <p class="sectiontag">Subjective</p>
+                <p class="sectionsubtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis
+                    porro
+                    fugiat, perferendis iusto itaque aliquam dolores non facilis quia, dolorum, odit doloremque.
+                    Perferendis, aut rem beatae nemo id est. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Error
+                    omnis inventore veritatis suscipit blanditiis repudiandae nihil esse, itaque reprehenderit veniam!
+                    Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptas labore optio exercitationem
+                    voluptatum dolor autem vero ducimus suscipit eos accusamus aliquam repellendus tempore deserunt at
+                    reprehenderit commodi nulla iste libero aspernatur sed, deleniti hic omnis porro. Amet eaque natus
+                    unde
+                    a placeat. Molestiae, quo quis officia libero sint beatae. </p>
+            </div>
+            <div class="thumbnail">
+                <img src="../images/text.jpeg" alt="Single Choice" class="imgfluid" srcset="">
+            </div>
+
+        </section>
+        <section class="sec-left">
+
+            <div class="thumbnail">
+                <img src="../images/apti.png" alt="Single Choice" class="imgfluid" srcset="">
+            </div>
+            <div class="paras">
+
+
+                <p class="sectiontag">General Aptitude</p>
+                <p class="sectionsubtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis
+                    porro
+                    fugiat, perferendis iusto itaque aliquam dolores non facilis quia, dolorum, odit doloremque.
+                    Perferendis, aut rem beatae nemo id est. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Error
+                    omnis inventore veritatis suscipit blanditiis repudiandae nihil esse, itaque reprehenderit veniam!
+                    Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptas labore optio exercitationem
+                    voluptatum dolor autem vero ducimus suscipit eos accusamus aliquam repellendus tempore deserunt at
+                    reprehenderit commodi nulla iste libero aspernatur sed, deleniti hic omnis porro. Amet eaque natus
+                    unde
+                    a placeat. Molestiae, quo quis officia libero sint beatae. </p>
+            </div>
+
+
+        </section>
+    </section>
+    <section class="section3" id="contest">
+        <div class="heading">
+            <h1 class="test">Contests</h1>
+        </div>
+        <div class="subheadings">
+        <div class="contest">
+            <div class="head">
+                <h1 class="sectiontag">Winter Wins</h1>
+                <table class="timer">
+                    <tr>
+                        <td id="days" class="time values"></td>
+                        <td id="hours" class="time values"></td>
+                        <td id="minutes" class="time values"></td>
+                        <td id="seconds" class="time values"></td>
+                    </tr>
+                    <tr>
+                        <td class="time">Days</td>
+                        <td class="time">Hours</td>
+                        <td class="time">Minutes</td>
+                        <td class="time">Seconds</td>
+                    </tr>
+                </table>
+            </div>
+            <p class="sectionsubtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nobis fugit nihil
+                praesentium aliquam, aut, laboriosam molestias voluptas id earum sint sed cupiditate suscipit.
+                Voluptates itaque non voluptatibus est asperiores.</p>
+                <button class="btn2">Start Now</button>
+        </div>
+        <div class="contest">
+            <div class="head">
+                <h1 class="sectiontag">Turtle Race</h1>
+                <table class="timer">
+                    <tr>
+                        <td id="days2" class="time values"></td>
+                        <td id="hours2" class="time values"></td>
+                        <td id="minutes2" class="time values"></td>
+                        <td id="seconds2" class="time values"></td>
+                    </tr>
+                    <tr>
+                        <td class="time">Days</td>
+                        <td class="time">Hours</td>
+                        <td class="time">Minutes</td>
+                        <td class="time">Seconds</td>
+                    </tr>
+                </table>
+            </div>
+            <p class="sectionsubtag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nobis fugit nihil
+                praesentium aliquam, aut, laboriosam molestias voluptas id earum sint sed cupiditate suscipit.
+                Voluptates itaque non voluptatibus est asperiores.</p>
+                <button class="btn2">Start Now</button>
+        </div>
+    </div>
+    </section>
+    <section class="section4" id="contact">
+        <h1 class="test">Contact Us</h1>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." class="contact">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="contact">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country" class="contact">
+                <option value="usa">India</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" class="contact"></textarea >
+          
+              <input type="submit" value="Submit" class="btn2">
+          
+            </form>
+          </div>
+    </section>
+    <footer class="footer">
+	<p>Copyright &copy; 2021 The Test School: By-: Tushar Dubey.</p>
+</footer>
+
+</body>
+
+</html>
